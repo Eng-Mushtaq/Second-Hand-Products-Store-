@@ -1,0 +1,108 @@
+/* Add your custom CSS styles here */
+
+/* Set the font family and size for the whole page */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    opacity: 0.7;
+  }
+  
+  .header h1 {
+    position: relative;
+    padding-top: 10%;
+    margin-top: 0%;
+    
+  }
+  
+
+/* Set the color and font size for the logo */
+.logo {
+    color: #333333;
+    font-size: 32px;
+}
+.nav {
+    background-color: rgb(0, 0, 0); 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li  {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    color: #ffffff;
+  }
+  .nav li a  {
+    color: #ffffff;
+    text-decoration: none;
+  }
+/* Set the color and text decoration for the navigation links when hovered */
+.nav li a:hover {
+    color: #7e9ddc;
+    text-decoration: underline;
+}
+
+/* Set the margin and padding for the content */
+.clothes-page {
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+/* Set the display, width, and margin for the product items */
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+/* Set the border and padding for the product images */
+.product img {
+    border: 1px solid #333333;
+    padding: 5px;
+    height: 35%;
+
+
+}
+
+/* Set the color and font size for the product headings */
+.product p {
+    color: #333333;
+    font-size: 18px;
+    width: 65%;
+    max-lines: 3;
+    text-align: justify;
+
+}
+
+/* Set the background color and text alignment for the footer */
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
