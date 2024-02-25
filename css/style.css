@@ -69,6 +69,7 @@ body {
     margin: 20px;
     padding: 20px;
     align-items: center;
+
 }
 
 /* Set the display, width, and margin for the product items */
@@ -78,7 +79,8 @@ body {
     margin: 10px;
     align-items: center;
     justify-content: center;
-
+    max-height: 20%;
+    min-height: 20%;
 } 
 
 /* Set the border and padding for the product images */
@@ -86,7 +88,8 @@ body {
     border: 1px solid #333333;
     padding: 5px;
     height: 35%;
-
+    max-height: 20%;
+    min-height: 20%;
 
 }
 
@@ -106,3 +109,32 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+
+/*//////////////////////////////furniture/////////////////////////////////*/
+.blog-section {
+  padding: 7rem 0 12rem 0; }
+  .blog-section .post-entry a {
+    text-decoration: none; }
+  .blog-section .post-entry .post-thumbnail {
+    display: block;
+    margin-bottom: 20px; }
+    .blog-section .post-entry .post-thumbnail img {
+      border-radius: 20px;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+  .blog-section .post-entry .post-content-entry {
+    padding-left: 15px;
+    padding-right: 15px; }
+    .blog-section .post-entry .post-content-entry h3 {
+      font-size: 16px;
+      margin-bottom: 0;
+      font-weight: 600;
+      margin-bottom: 7px; }
+    .blog-section .post-entry .post-content-entry .meta {
+      font-size: 14px; }
+      .blog-section .post-entry .post-content-entry .meta a {
+        font-weight: 600; }
+  .blog-section .post-entry:hover .post-thumbnail img, .blog-section .post-entry:focus .post-thumbnail img {
+    opacity: .7; }
